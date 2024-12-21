@@ -177,10 +177,7 @@ function Test() {
                 {startTest !== null &&
                   usedQuestion[currentQuestionId]?.options.map(
                     (option, index) => (
-                      <div
-                        key={index}
-                        className="lg:h-auto h-[240px] overflow-hidden"
-                      >
+                      <div key={index} className="lg:h-auto overflow-hidden">
                         <div className="lg:mb-4 h-[60px] flex items-center">
                           <div
                             className={`cursor-pointer flex items-center h-[30px] lg:h-[50px] p-4 rounded-full  hover:bg-blue-300 lg:w-[50px]`}
@@ -251,7 +248,7 @@ function Test() {
             </div>
           </div>
         </div>
-        <div className="lg:block h-full w-[30%] bg-white">
+        <div className="lg:block h-full w-[30%] bg-white hidden md:block">
           <div className="bg-gray-300 h-[70px] overflow-hidden flex justify-center items-center"></div>
           <div className=" h-[250px] px-9 justify-center">
             <div>

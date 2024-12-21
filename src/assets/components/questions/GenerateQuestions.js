@@ -1,10 +1,7 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 
 function GenerateQuestions() {
-    
-  return (
-    <div>GenerateQuestions</div>
-  )
+  return <div>GenerateQuestions</div>;
 }
 
-export default GenerateQuestions
+export default GenerateQuestions;

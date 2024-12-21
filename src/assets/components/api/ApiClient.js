@@ -1,7 +1,8 @@
 import axios from "axios";
 
 export const apiClient = axios.create({
-  baseURL: "http://localhost:8080",
+  // baseURL: "http://localhost:8080",
+  baseURL: "https://exam-api-6.onrender.com",
 });
 
 export const executeJwtAuthentication = (username, password) =>
